@@ -1,0 +1,32 @@
+git status >> mengecek status file yang kita lakukan perubahan maupun hapus
+git rm namafile >> menghapus file
+git clone UrlRepo --> mengcloning repository yang berada di github
+git add -----> Meng-add file untracked file menjadi tracked
+contoh >> git add . >> mengadd semua file
+	  git add NamaFile >> menadd file tertentu
+git commit -----> biasa dilakukan selalu ketika sudah meng git add sebuah file
+Contoh >> git commit -m Komentar >> membuat file pasti ke repository lokal
+git reset ---> mengembalikan status tracked yang terakhir kita commit menjadi semua
+git push origin NamaRepo/Branch >> mengupdate data yang berada digithub
+git diff NamaFile >> untuk mengecek perubahan apa yang kita telah lakukan pada sebuah file
+k
+git branch  >> mengecek semua branch yang ada dalam suatu repository ( repository itu adalah tempat penyimpanan data bersama )
+git branch NamaBranch >> membuat branch baru yg datanya diambil dari repository yang anda tempati sekarang
+git branch -d / git branch --delete >> menghapus branch yang tidak diperlukan kembali
+
+git checkout NamaBranch >> mengubah posisi repository kita berada
+git merge NamaBranch >> menggabungkan sebuah repository yang kita tempati dengan repository yang kita inginkan
+			contoh : kita berada di master , kita mempunyai branch ASD
+				 kita berada di master , melakukan git merge ASD
+				 maka data yang berada di repo ASD akan tergabung di master
+				 note : diusahakan untuk menghindari menghapus file yang berada di master karena ada kemungkinan file tersebut dipakai bersama
+VIM >> merupakan sebuah text editor CLI 
+ 	Jika anda kesusahakan untuk quit 
+		Ctrl + C
+			Lalu Ketik :quit < biasanya terlihat di sudut kiri bawah jika ga nampak cari sendiri aku pun tak tau lagi
+	Jika ingin menghindari VIM , kalian bs melakukan ke set editor ke NANO karena lebih mudah :D
+
+Note : jika ingin membatalakn akses tkn Ctrl+C
+Note : Diusahakan menghindari tombol Ctrl +z >> ini akan mengeluarkan proses tanpa membatalkan proses itu , seakan" program yang anda lakukan masih berjalan
+git commit .
+
